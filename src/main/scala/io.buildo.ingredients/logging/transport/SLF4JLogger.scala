@@ -14,7 +14,7 @@ class SLF4J extends Transport {
       l
     }
     val c = msg.cause
-    val m = msg.message.toString
+    val m = s"[${msg.fileName}:${msg.line}] ${msg.message}"
     msg.level match {
       case Level.Debug => {
         if (c.isDefined)
