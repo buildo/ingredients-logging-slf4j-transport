@@ -1,6 +1,6 @@
 organization := "io.buildo"
 
-name := "slf4j-ingredients-logging"
+name := "ingredients-logging-slf4j-transport"
 
 version := "0.1-SNAPSHOT"
 
